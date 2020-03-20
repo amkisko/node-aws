@@ -1,4 +1,4 @@
-FROM: node:latest
+FROM node:latest
 LABEL maintainer="andrei@kiskolabs.com"
 LABEL version="1.0.0"
 RUN apt-get update -y && apt-get install openssh-client rsync -y
